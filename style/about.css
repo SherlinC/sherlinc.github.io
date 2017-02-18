@@ -77,6 +77,7 @@ padding-top: 0px;
 
 /* unvisited link */
 a:link {
+      color: #3F3F3F;
     text-decoration: none;
 }
 

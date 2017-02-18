@@ -54,6 +54,7 @@
 
 /* unvisited link */
 a:link {
+    color: #3F3F3F;
     text-decoration: none;
 }
 
@@ -64,10 +65,10 @@ a:visited {
 }
 
 /* mouse over link */
-a:hover {
+/*a:hover {
     color: wihte;
     text-decoration: none;
-}
+}*/
 
 /* selected link */
 a:active {
