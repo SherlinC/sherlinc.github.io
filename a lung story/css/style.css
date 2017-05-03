@@ -1,0 +1,302 @@
+#info {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  background-color: rgba(0,0,0,0.5);
+  color: #fff;
+  padding: 20px;
+
+}
+section {
+  height: 5000px;
+  
+
+}
+
+
+.bcg_intro{
+  height: 100%;
+  width: 100%;
+  background-image: url("../img/intro.png");
+
+  background-size: 100%;
+  background-position: center top;
+  background-attachment: fixed;
+}
+#scrollBaby {
+  width: 100%;
+  height: 100%;
+  background: url("../img/beginning.png") no-repeat left;
+  position: fixed;
+  bottom: 0;
+   left: 30%;
+margin-bottom: -60px;
+}
+
+#tree {
+
+  width: 380px; height: 550px;
+  position: fixed;
+  top: 50%;
+  left: 35%;
+  margin: -275px 0 0 -190px;
+}
+.item {position: absolute; top: 0; left: 0;}
+
+.charactor{bottom: 40px; left: 130px; top: auto;}
+.shadow {bottom: 0; left: 35%; top: auto;}
+
+
+#tree1 {
+  width: 380px; height: 550px;
+  position: fixed;
+  top: 50%;
+  left: 45%;
+  margin: -275px  0 -190px;
+}
+#slide-1 .item1 {position: absolute; top: 0; left: 0;}
+#slide-1 .tree11 {bottom: 50px; left: 100px; top: auto;}
+#slide-1 .tree12 {bottom: 309px; left: 73px; top: auto;}
+#slide-1 .tree13 {bottom: 205px; left: 30px; top: auto;}
+#slide-1 .tree14 {bottom: 101px; left: 14px; top: auto;}
+#slide-1 .trunk1 {bottom: 87px; left: 167px; top: auto;}
+#slide-1 .pot1 {bottom: 20px; left: 130px; top: auto;}
+#slide-1 .shadow1 {bottom: 0; left: 24px; top: auto;}
+
+
+#kuanzhai {
+  width: 380px; height: 550px;
+  position: fixed;
+  top: 30%;
+  left: 1%;
+  margin: -275px  0 -190px;
+}
+
+
+#slide-2 .test{bottom: 10px; left: 130px; top: 100px;}
+
+//kouzhao 
+#bezier_1 #lung{
+    position: fixed;
+  left: 1550px;
+}
+
+#mask{
+  width: 150px;
+}
+#notice1{
+  position: fixed;
+/*  size: 50%;*/
+  margin-left: 53.5%;
+  margin-bottom: 14%;
+
+}
+
+.bcg_4{
+  height: 100%;
+  width: 100%;
+  background-image: url("../img/street.png");
+  background-size: 100%;
+  background-position: center top;
+  background-attachment: fixed;
+
+}
+.bcg_stuck{
+  height: 100%;
+  width: 100%;
+  background-image: url("../img/street1.png");
+  background-size: 100%;
+  background-position: center top;
+  background-attachment: fixed;
+}
+.bcg_living{
+  height: 100%;
+  width: 100%;
+  background-image: url("../img/livingroom.png");
+  background-size: 100%;
+  background-position: center top;
+  background-attachment: fixed;
+}
+.bcg_school{
+  height: 100%;
+  width: 100%;
+  background-image: url("../img/school.png");
+  background-size: 100%;
+  background-position: center top;
+  background-attachment: fixed;
+}
+.bcg_classroom{
+  height: 100%;
+  width: 100%;
+  background-image: url("../img/classroom.png");
+  background-size: 100%;
+  background-position: center top;
+  background-attachment: fixed;
+}
+
+.bcg_appeal{
+  height: 100%;
+  width: 100%;
+  background-image: url("../img/appeal.png");
+  background-size: 100%;
+  background-position: center top;
+  background-attachment: fixed;
+}
+
+
+
+//left to right
+
+
+#bezier {
+  overflow: hidden;
+  position: relative;
+}
+#plane {
+  position: fixed;
+  left: 150px;
+}
+/*#bezier a.viewsource {
+  margin: 0px;
+  display: inline-block;
+}*/
+
+ #notice{
+ /* width: 1200px;*/
+
+ margin-left: 50%;
+
+}
+
+
+
+//stuck
+#stuck {
+  overflow: hidden;
+  position: relative;
+}
+#stuck #omg {
+  position: fixed;
+  left: 55%;
+  bottom: 70%;
+}
+#stuck a.viewsource {
+  margin: 0px;
+  display: inline-block;
+}
+
+#car1{
+  position: fixed;
+  margin-left: 20%; 
+}
+#car2{
+  position: fixed;
+  margin-left: 20%;
+  
+}
+
+//school
+#school {
+  overflow: hidden;
+  position: relative;
+}
+#parents{
+  position: fixed;
+  margin-left: 40%; 
+}
+
+#parents_1{
+  position: fixed;
+  margin-left: 28%; 
+}
+
+
+//classroom
+#classroom {
+  overflow: hidden;
+  position: relative;
+}
+#blackboard{
+  position: fixed;
+  margin-left: 47%; 
+}
+
+#question{
+  position: fixed;
+  margin-left: 63%; 
+}
+
+#answer1{
+  position: fixed;
+  margin-left: 23%; 
+}
+
+#answer2{
+  position: fixed;
+  margin-left: 18%; 
+}
+
+
+.box2 {
+  display: inline-block;
+  position: relative;
+  border-radius: 8px;
+  border: 0px solid white;
+  text-align: center;
+  vertical-align: middle;
+  padding: 0 5px;
+}
+
+.box2 {
+  min-width: 50px;
+  height: 50px;
+  margin: 25px auto 25px auto;
+}
+
+ .box2 {
+  top: 70%;
+  max-height: 50px;
+  margin: -25px 25px auto 25px;
+  margin-left: 80%;
+  margin-top: 20%;
+}
+
+ .box2 p{
+  margin: 7px 15px 5px 15px;
+  font-size: 13px;
+  position: center auto;
+  font-weight: lighter;
+  color: white;
+  font-family: 'Coming Soon', cursive;
+}
+
+
+/*.box2.mario {
+  background-color: #004fae;
+  border-top: 30px solid #fc112f;
+  border-bottom: 10px solid #c4723b;
+}
+*/
+ .box2.outline, {
+  border: 1px solid white;
+}
+
+.green {
+  background-color: #FFB37B;
+}
+.orange {
+  background-color: #ea6300;
+}
+
+.skin {
+  background-color: #ED9F4C;
+}
+
+
+
+
+
+
+
+
+
