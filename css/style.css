@@ -38,38 +38,39 @@ margin-bottom: -60px;
   width: 380px; height: 550px;
   position: fixed;
   top: 50%;
-  left: 35%;
+  left: 25%;
   margin: -275px 0 0 -190px;
 }
 .item {position: absolute; top: 0; left: 0;}
 
 .charactor{bottom: 40px; left: 130px; top: auto;}
-.shadow {bottom: 0; left: 35%; top: auto;}
+.shadow {bottom: 0; left: 25%; top: auto;}
 
 
 #tree1 {
   width: 380px; height: 550px;
   position: fixed;
   top: 50%;
-  left: 45%;
+  left: 35%;
   margin: -275px  0 -190px;
 }
 #slide-1 .item1 {position: absolute; top: 0; left: 0;}
-#slide-1 .tree11 {bottom: 50px; left: 100px; top: auto;}
-#slide-1 .tree12 {bottom: 309px; left: 73px; top: auto;}
-#slide-1 .tree13 {bottom: 205px; left: 30px; top: auto;}
-#slide-1 .tree14 {bottom: 101px; left: 14px; top: auto;}
-#slide-1 .trunk1 {bottom: 87px; left: 167px; top: auto;}
-#slide-1 .pot1 {bottom: 20px; left: 130px; top: auto;}
-#slide-1 .shadow1 {bottom: 0; left: 24px; top: auto;}
+#slide-1 .window {bottom: 50px; left: 100px; top: auto;}
+
+.window2 {
+   position: fixed;
+  bottom: 9px; left: 10%; top: 30%;}
 
 
-#kuanzhai {
-  width: 380px; height: 550px;
+.photo1 {
   position: fixed;
-  top: 30%;
-  left: 1%;
-  margin: -275px  0 -190px;
+left: 19.5%;
+}
+
+
+.photo2{
+  position: fixed;
+left: 42.5%;
 }
 
 
@@ -202,14 +203,27 @@ margin-bottom: -60px;
 }
 #parents{
   position: fixed;
-  margin-left: 40%; 
+  margin-left: 45%; 
 }
 
 #parents_1{
   position: fixed;
+  margin-left: 35%; 
+}
+#parents_2{
+  position: fixed;
+  margin-left: 58%; 
+}
+
+#parents_3{
+  position: fixed;
   margin-left: 28%; 
 }
 
+#wait{
+  position: fixed;
+  margin-left: 48%; 
+}
 
 //classroom
 #classroom {
@@ -225,7 +239,10 @@ margin-bottom: -60px;
   position: fixed;
   margin-left: 63%; 
 }
-
+#question1{
+  position: fixed;
+  margin-left: 23%; 
+}
 #answer1{
   position: fixed;
   margin-left: 23%; 
@@ -294,9 +311,57 @@ margin-bottom: -60px;
 
 
 
+//appeal
+
+
+#appeal {
+  overflow: hidden;
+  position: relative;
+}
+
+
+ #stop{
+  position: fixed;
+ margin-left: 70%;
+
+}
+
+ #stopusing{
+  position: fixed;
+ margin-left: 30%;
+
+}
+
+ #savelungs{
+  position: fixed;
+ margin-left: 25%;
+
+}
+ #great{
+  position: fixed;
+ margin-left: 60%;
+
+}
 
 
 
 
 
+/*@media screen and (min-width: 800px) and (max-width: 1920px) and (min-height: 1080px){
+  body{
+    width: 100%;
+    height: 100%;
+  }
+  section{
+    width: 100%;
 
+  }
+  .tree{
+    width: auto;
+  }
+}
+
+
+
+
+*/

@@ -192,6 +192,14 @@ $(function () { // wait for document ready
             .setTween("#animate1", 1, {backgroundColor: "#E85D48", scale: 2.5}) // trigger a TweenMax.to tween
             .addIndicators({name: "1 (duration: 0)"}) // add indicators (requires plugin)
             .addTo(controller);
+
+ var controller_1 = new ScrollMagic.Controller();
+   var scene = new ScrollMagic.Scene({
+              triggerElement: "#trigger_class"
+            })
+            .setTween("#animate_school", 1.6, {backgroundColor: "#E85D48", scale: 2.5}) // trigger a TweenMax.to tween
+            .addIndicators({name: "1 (duration: 0)"}) // add indicators (requires plugin)
+            .addTo(controller_1);
   // var controller_1 = new ScrollMagic.Controller();
   //  var scene_1 = new ScrollMagic.Scene({
   //             triggerElement: "#trigger_masks"
